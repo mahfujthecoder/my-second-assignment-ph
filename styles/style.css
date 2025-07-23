@@ -1,0 +1,286 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.bg-primary{
+    background-color: rgba(245, 248, 255, 1) ;
+}
+/* shared item */
+span{
+    font-size: 60px;
+    color: rgb(233, 90, 8);
+}
+.p-color{
+    color: rgba(0, 0, 0, 0.5);
+}
+.span-2{
+    color: rgb(233, 90, 8);
+ font-size: 50px;
+}
+.btn{
+    background: rgb(233, 90, 8);
+    padding: 18px 50px;
+    width: 270px;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+
+
+
+
+
+/* nav section */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    align-items: center;
+    margin: 30px 150px;
+}
+ul{
+    display: flex;
+   
+    
+}
+.nav-li{
+    list-style: none;
+    padding: 18px;
+}
+a{
+    text-decoration: none;
+     color: black;
+}
+.navbar img{
+    max-width: 130px;
+    height: 80px;
+}
+.home{
+    color: rgb(37, 36, 50) ;
+    font-weight: 600;
+}
+.cart{
+    padding: 0px;
+    font-weight: 400px;
+}
+
+/* banner section */
+.banner-container{
+max-width: 1140px;
+height: 461px;
+align-items: flex-end;
+margin: 150px;
+display: flex;
+justify-content: center;
+padding: 0px;
+} 
+
+.banner-content{
+    margin: 0px 0px;
+}
+.banner-title h1{
+    font-size: 60px;
+    font-weight: 700px;
+    text-align: left;
+}
+
+
+.banner-image img{
+    width: 570px;
+height: 355px;
+}
+
+/* plant section */
+.plant-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.plant-content h3{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 16px 0px;
+}
+.plant-content p{
+    margin-bottom: 50px;
+}
+
+.plants{
+    max-width: 1140px;
+    align-items: center;
+    text-align: center;
+    margin:0px 150px;
+    left: 150px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.plant-card{
+    align-items: center;
+    margin: 0px 20px;
+    gap: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+    margin: 20px 20px;
+}
+
+.plant-title{
+    font-size: 22px;
+    font-weight: 500;
+}
+.plant-price{
+    font-size: 22px;
+    font-weight: 700;
+
+
+}
+/* flower-lover-section */
+.flower-lover-section{
+    margin: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+.lover-right{
+    width: 540px;
+    gap: 20px;
+}
+.lover-right ul{
+    display: flex;
+    flex-direction: column;
+}
+.lover-right h3{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.lover-p{
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.shop-image{
+    position: relative;
+    width: 540px;
+    height: 600px;
+    background: linear-gradient(180.00deg, rgba(103, 171, 234, 0.24),rgba(233, 90, 8, 0.6) 100%);
+}
+.left-trusted img{
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    left: 497px;
+    top: 2200px;
+    box-shadow:  rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .menu{
+        display: none;
+    }
+.navbar img{
+    width: 63px;
+height: 38px;
+
+}
+.navbar{
+    justify-content: space-between;
+    margin: 30px 16px;
+}
+
+.cart{
+    gap: 10px;
+    margin-left: 57px;
+}
+
+.banner-container{
+    flex-direction: column-reverse;
+    margin: 0 auto;
+}
+.banner-image img{
+    margin-top: 20px;
+   width: 393.18px;
+height: 245px;
+}
+.banner-content h1, span{
+    font-size: 30px;
+   
+}
+.banner-content{
+     margin: 15px 18px;
+}
+.banner-description{
+    font-size: 14px;
+font-weight: 400;
+}
+
+/* plants section */
+.plants{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 40px auto;
+}
+.plant-card{
+     width: 171px;
+}
+.plant-img img{
+    width: 171px;
+height: 196.5px;
+}
+.btn{
+    width: 171px;
+}
+.plant-content p{
+    margin: 0px 30px;
+}
+.left-trusted img{
+    display: none;
+}
+.flower-lover-section{
+    display: flex;
+    flex-direction: column;
+   margin:auto;
+}
+.lover-left img{
+    width: 358px;
+height: 396px;
+margin: 20px;
+}
+.lover-right h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.lover-p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.lover-right{
+  width: 361px;
+height: 234px;
+margin-top: -100px;
+margin: -80px 15px 140px 20px;
+}
+
+
+}
