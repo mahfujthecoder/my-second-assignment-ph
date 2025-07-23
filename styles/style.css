@@ -39,7 +39,6 @@ span{
 
 
 
-
 /* nav section */
 
 .navbar {
@@ -80,7 +79,8 @@ a{
 max-width: 1140px;
 height: 461px;
 align-items: flex-end;
-margin: 150px;
+margin: 30px 150px;
+margin-top: 20px;
 display: flex;
 justify-content: center;
 padding: 0px;
@@ -184,9 +184,36 @@ height: 355px;
     width: 280px;
     height: 280px;
     left: 497px;
-    top: 2200px;
+    top: 1970px;
     box-shadow:  rgba(0, 0, 0, 0.25);
     border: none;
+}
+/* join section */
+.join-section{
+ background: url(../assets/news-letter-bg.png);
+   background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+height: 533px;
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+}
+.join-title{
+    color: rgb(255, 255, 255);
+font-size: 50px;
+margin-bottom: 25px;
+}
+
+.join-section input{
+    width: 644px;
+height: 50px;
+margin-right: -10px;
+padding: 8px 20px 8px 20px;
+}
+.join-btn{
+    font-weight: 600;
 }
 
 
@@ -281,6 +308,22 @@ height: 234px;
 margin-top: -100px;
 margin: -80px 15px 140px 20px;
 }
+.join-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+.join-section input{
+    width: 218px;
+height: 50px;
+}
+.join-section{
+    width: 393px;
+height: 275px;
+}
+
+
+
+
 
 
 }
